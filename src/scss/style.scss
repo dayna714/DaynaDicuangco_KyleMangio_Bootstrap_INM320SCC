@@ -1,14 +1,18 @@
+$dark-grey: rgb(27, 27, 28);
+$blue-hover: rgb(60, 0, 255);
+
+
 #page-content-wrapper {
     background-color: rgb(239, 239, 239);
 }
 
 .sidebar {
     width: 400px;
-    background-color: rgb(27, 27, 28);
+    background-color: $dark-grey;
 }
 
 .sidebar-heading, .list-group-item {
-    background-color: rgb(27, 27, 28);
+    background-color: $dark-grey;
     color: white;
 }
 
@@ -60,8 +64,8 @@
 }
 
 .top-tiles:hover {
-    border-color: rgb(60, 0, 255);
-    color: rgb(60, 0, 255);
+    border-color: $blue-hover;
+    color: $blue-hover;
 }
 
 .border-none {
