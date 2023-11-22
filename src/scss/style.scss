@@ -75,9 +75,10 @@ $blue-hover: rgb(60, 0, 255);
 .overview-middle {
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
-.overview-middle, .overview-bottom {
+.overview-bottom {
     margin: 10px;
 }
 
